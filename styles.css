@@ -11,8 +11,6 @@
 
 /* NavBar */
 
-
-
 #navbar {
     position: fixed;
     font-family: 'Lato', sans-serif;
@@ -115,11 +113,16 @@
     padding-right: 5%;
 }
 
-#catfacts, #create, #kast, #airvisual{
+#catfacts, #create, #kast, #airvisual, #videogame, #movieproject {
     margin-top: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
+}
+
+#catfacts:hover, #create:hover, #kast:hover, #airvisual:hover, #videogame:hover, #movieproject:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(49, 48, 48, 0.09);  
 }
 
 
